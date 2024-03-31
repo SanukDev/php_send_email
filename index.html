@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Contato</h2>
+        <form action="envio-amail.php" method="post" id="myform">
+            <label for="">Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome!" autocomplete="off">
+            <label for="">Numero</label>
+            <input type="text" name="numero" placeholder="Digite seu numero!">
+            <label for="">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail!" autocomplete="off">
+            <label for="">Mensagem</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    
+</body>
+</html>
